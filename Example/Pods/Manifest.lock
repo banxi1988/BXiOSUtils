@@ -1,0 +1,14 @@
+PODS:
+  - BXiOSUtils (0.1.0)
+
+DEPENDENCIES:
+  - BXiOSUtils (from `../`)
+
+EXTERNAL SOURCES:
+  BXiOSUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BXiOSUtils: 2f2a916f05eb8b447558eec852add43b243d0953
+
+COCOAPODS: 0.39.0
