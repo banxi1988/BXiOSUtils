@@ -18,6 +18,7 @@ public struct BXTextAttribute{
     self.textColor = textColor
   }
   
+  
   var attributedText:NSAttributedString{
     return NSAttributedString(string: text, attributes: [NSFontAttributeName:font,NSForegroundColorAttributeName:textColor])
   }
