@@ -8,7 +8,7 @@
 
 import UIKit
 
-public struct BXTextAttribute{
+public struct AttributedText{
   public var textColor:UIColor
   public var font:UIFont
   public var text:String
@@ -25,8 +25,10 @@ public struct BXTextAttribute{
 }
 
 
+
+
 public struct TextFactory{
-  public static func createAttributedText(textAttributes:[BXTextAttribute]) -> NSAttributedString{
+  public static func createAttributedText(textAttributes:[AttributedText]) -> NSAttributedString{
     let attributedText = NSMutableAttributedString()
     for attr in textAttributes{
       attributedText.appendAttributedString(attr.attributedText)
