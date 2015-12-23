@@ -10,3 +10,4 @@ import UIKit
 
 let screenScale = UIScreen.mainScreen().scale
 let rootViewController = UIApplication.sharedApplication().rootViewController
+

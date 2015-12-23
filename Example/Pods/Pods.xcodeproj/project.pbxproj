@@ -14,6 +14,14 @@
 		3E9998071C13512200679D78 /* FoundationGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9998061C13512200679D78 /* FoundationGlobals.swift */; };
 		3E9998091C14095F00679D78 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9998081C14095F00679D78 /* UIImageExtensions.swift */; };
 		3E99980B1C140A6000679D78 /* UIColorExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99980A1C140A6000679D78 /* UIColorExtentions.swift */; };
+		3ECF044F1C23F799003D29FE /* UITableViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF044E1C23F799003D29FE /* UITableViewCellExtensions.swift */; };
+		3ECF04521C23F87B003D29FE /* CGRectExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF04511C23F87B003D29FE /* CGRectExtentions.swift */; };
+		3ECF04541C23F92B003D29FE /* UIViewControllerExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF04531C23F92B003D29FE /* UIViewControllerExtenstions.swift */; };
+		3ECF04561C23F980003D29FE /* UITableViewControllerExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF04551C23F980003D29FE /* UITableViewControllerExtenstions.swift */; };
+		3ECF04581C23FA0A003D29FE /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF04571C23FA0A003D29FE /* UIFontExtensions.swift */; };
+		3ECF045A1C240108003D29FE /* UIDeviceExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF04591C240108003D29FE /* UIDeviceExtenstions.swift */; };
+		3ECF045D1C2413BD003D29FE /* GCDUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF045C1C2413BD003D29FE /* GCDUtils.swift */; };
+		3ECF0D0A1C25B57D003D29FE /* NSDateExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF0D091C25B57D003D29FE /* NSDateExtenstions.swift */; };
 		51F01D080397660686C6544FCC9CD853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		8EF24D8B8CC2F924EE968A05D41A47C1 /* Pods-BXiOSUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF35F2D24A88482F79EFBB56F3604991 /* Pods-BXiOSUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB398A2E35189713F422B0AE1FB434C /* BXiOSUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1C0C1BAAB390FBE93471E767C1B0CE /* BXiOSUtils-dummy.m */; };
@@ -69,6 +77,14 @@
 		3E9998061C13512200679D78 /* FoundationGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationGlobals.swift; sourceTree = "<group>"; };
 		3E9998081C14095F00679D78 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		3E99980A1C140A6000679D78 /* UIColorExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtentions.swift; sourceTree = "<group>"; };
+		3ECF044E1C23F799003D29FE /* UITableViewCellExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtensions.swift; sourceTree = "<group>"; };
+		3ECF04511C23F87B003D29FE /* CGRectExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectExtentions.swift; sourceTree = "<group>"; };
+		3ECF04531C23F92B003D29FE /* UIViewControllerExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtenstions.swift; sourceTree = "<group>"; };
+		3ECF04551C23F980003D29FE /* UITableViewControllerExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewControllerExtenstions.swift; sourceTree = "<group>"; };
+		3ECF04571C23FA0A003D29FE /* UIFontExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtensions.swift; sourceTree = "<group>"; };
+		3ECF04591C240108003D29FE /* UIDeviceExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtenstions.swift; sourceTree = "<group>"; };
+		3ECF045C1C2413BD003D29FE /* GCDUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDUtils.swift; sourceTree = "<group>"; };
+		3ECF0D091C25B57D003D29FE /* NSDateExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtenstions.swift; sourceTree = "<group>"; };
 		412B43B8741540E8DF64F357797840D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BF64475A9AFC75F67C96C5F88B926F2 /* Pods_BXiOSUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXiOSUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D7F2CF49498F7808DB74BDE7A5E18F /* Pods-BXiOSUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXiOSUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -170,11 +186,16 @@
 		3E9997FE1C134B4200679D78 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				3ECF04571C23FA0A003D29FE /* UIFontExtensions.swift */,
 				3E9997FF1C134B7500679D78 /* UIViewExtentions.swift */,
 				3E9998011C134FB700679D78 /* UIKitGlobals.swift */,
 				3E9998031C134FF700679D78 /* UIApplicationExtensions.swift */,
 				3E9998081C14095F00679D78 /* UIImageExtensions.swift */,
 				3E99980A1C140A6000679D78 /* UIColorExtentions.swift */,
+				3ECF044E1C23F799003D29FE /* UITableViewCellExtensions.swift */,
+				3ECF04531C23F92B003D29FE /* UIViewControllerExtenstions.swift */,
+				3ECF04551C23F980003D29FE /* UITableViewControllerExtenstions.swift */,
+				3ECF04591C240108003D29FE /* UIDeviceExtenstions.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -183,13 +204,32 @@
 			isa = PBXGroup;
 			children = (
 				3E9998061C13512200679D78 /* FoundationGlobals.swift */,
+				3ECF0D091C25B57D003D29FE /* NSDateExtenstions.swift */,
 			);
 			name = Foundation;
+			sourceTree = "<group>";
+		};
+		3ECF04501C23F864003D29FE /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF04511C23F87B003D29FE /* CGRectExtentions.swift */,
+			);
+			name = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		3ECF045B1C241394003D29FE /* Threading */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF045C1C2413BD003D29FE /* GCDUtils.swift */,
+			);
+			name = Threading;
 			sourceTree = "<group>";
 		};
 		71B984FF969CAB304978659BC62C850E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3ECF045B1C241394003D29FE /* Threading */,
+				3ECF04501C23F864003D29FE /* CoreGraphics */,
 				3E9998051C13511000679D78 /* Foundation */,
 				3E9997FE1C134B4200679D78 /* UIKit */,
 				120B48B505088843B154C6ACD01CEAE0 /* ReplaceMe.swift */,
@@ -436,10 +476,18 @@
 			files = (
 				3E99980B1C140A6000679D78 /* UIColorExtentions.swift in Sources */,
 				3E9998001C134B7500679D78 /* UIViewExtentions.swift in Sources */,
+				3ECF04581C23FA0A003D29FE /* UIFontExtensions.swift in Sources */,
+				3ECF04561C23F980003D29FE /* UITableViewControllerExtenstions.swift in Sources */,
+				3ECF045A1C240108003D29FE /* UIDeviceExtenstions.swift in Sources */,
+				3ECF0D0A1C25B57D003D29FE /* NSDateExtenstions.swift in Sources */,
+				3ECF04521C23F87B003D29FE /* CGRectExtentions.swift in Sources */,
+				3ECF044F1C23F799003D29FE /* UITableViewCellExtensions.swift in Sources */,
+				3ECF04541C23F92B003D29FE /* UIViewControllerExtenstions.swift in Sources */,
 				3E9998071C13512200679D78 /* FoundationGlobals.swift in Sources */,
 				3E9998091C14095F00679D78 /* UIImageExtensions.swift in Sources */,
 				3E9998041C134FF700679D78 /* UIApplicationExtensions.swift in Sources */,
 				9BB398A2E35189713F422B0AE1FB434C /* BXiOSUtils-dummy.m in Sources */,
+				3ECF045D1C2413BD003D29FE /* GCDUtils.swift in Sources */,
 				A45F4D8B8EE25F83CC8A95E8885CDE42 /* ReplaceMe.swift in Sources */,
 				3E9998021C134FB700679D78 /* UIKitGlobals.swift in Sources */,
 			);
