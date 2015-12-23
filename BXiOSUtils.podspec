@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "BXiOSUtils"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BXiOSUtils."
+  s.summary          = "BXiOSUtils is a Bundle of some Usefull Extentions And Utility Global Functions"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+BXiOSUtils has Many Usefull Extentions And Utility Global Functions for iOS Development.
+And more will be adding into this lib.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BXiOSUtils"
+  s.homepage         = "https://github.com/banxi1988/BXiOSUtils"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "banxi1988" => "banxi1988@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BXiOSUtils.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/banxi1988/BXiOSUtils.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/banxi1988
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true

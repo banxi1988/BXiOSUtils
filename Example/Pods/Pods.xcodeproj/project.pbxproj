@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		009DCE0E38B5C5B142A4478CBFF50DFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3E2AEBE41C2A712F00DE202C /* QRCodeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AEBE31C2A712F00DE202C /* QRCodeUtils.swift */; };
 		3E9998001C134B7500679D78 /* UIViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9997FF1C134B7500679D78 /* UIViewExtentions.swift */; };
 		3E9998021C134FB700679D78 /* UIKitGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9998011C134FB700679D78 /* UIKitGlobals.swift */; };
 		3E9998041C134FF700679D78 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9998031C134FF700679D78 /* UIApplicationExtensions.swift */; };
@@ -27,7 +28,6 @@
 		9BB398A2E35189713F422B0AE1FB434C /* BXiOSUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1C0C1BAAB390FBE93471E767C1B0CE /* BXiOSUtils-dummy.m */; };
 		9BD15BC9424BD671C109732139041B0C /* BXiOSUtils.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0BF6F4EF6E856F991800F45F6C34AC6E /* BXiOSUtils.bundle */; };
 		A33F620E484B2CB2D2E7747E0D8AC0D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		A45F4D8B8EE25F83CC8A95E8885CDE42 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B48B505088843B154C6ACD01CEAE0 /* ReplaceMe.swift */; };
 		C08BB8C913D20B3AAE0BE47DE7E6DFC0 /* Pods-BXiOSUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F588FEC3952C18ECB201F82E82058EE /* Pods-BXiOSUtils_Example-dummy.m */; };
 		ED436A36B7DE1106C5D8C93323EBBD48 /* BXiOSUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EED9AFA231047880DCE508DB060FFCB6 /* BXiOSUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9A14FAAC2B4AE9F22AD6A31C9D4FF77 /* Pods-BXiOSUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 608F8BAAE9E647F800D77405A3180608 /* Pods-BXiOSUtils_Tests-dummy.m */; };
@@ -60,7 +60,6 @@
 
 /* Begin PBXFileReference section */
 		0BF6F4EF6E856F991800F45F6C34AC6E /* BXiOSUtils.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BXiOSUtils.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		120B48B505088843B154C6ACD01CEAE0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		121C9FC544CAC24CD0B0EF683F9C5524 /* BXiOSUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BXiOSUtils.xcconfig; sourceTree = "<group>"; };
 		1B1A7F7815216F4F80A364B2CC7038BE /* Pods-BXiOSUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXiOSUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1D6669C292A5966071E7201973F2C8D9 /* Pods-BXiOSUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BXiOSUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		3229BD3BCB635ACBF62F256F02B02B3B /* Pods-BXiOSUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BXiOSUtils_Example-umbrella.h"; sourceTree = "<group>"; };
 		39F293BE5D9D7F825683D84F93047D45 /* Pods-BXiOSUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXiOSUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3AD96EAED054E8334CF2904601AF07D8 /* BXiOSUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BXiOSUtils-prefix.pch"; sourceTree = "<group>"; };
+		3E2AEBE31C2A712F00DE202C /* QRCodeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeUtils.swift; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E9997FF1C134B7500679D78 /* UIViewExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtentions.swift; sourceTree = "<group>"; };
 		3E9998011C134FB700679D78 /* UIKitGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitGlobals.swift; sourceTree = "<group>"; };
@@ -183,6 +183,14 @@
 			path = Pod;
 			sourceTree = "<group>";
 		};
+		3E2AEBE21C2A711500DE202C /* CoreImage */ = {
+			isa = PBXGroup;
+			children = (
+				3E2AEBE31C2A712F00DE202C /* QRCodeUtils.swift */,
+			);
+			name = CoreImage;
+			sourceTree = "<group>";
+		};
 		3E9997FE1C134B4200679D78 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,11 +236,11 @@
 		71B984FF969CAB304978659BC62C850E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3E2AEBE21C2A711500DE202C /* CoreImage */,
 				3ECF045B1C241394003D29FE /* Threading */,
 				3ECF04501C23F864003D29FE /* CoreGraphics */,
 				3E9998051C13511000679D78 /* Foundation */,
 				3E9997FE1C134B4200679D78 /* UIKit */,
-				120B48B505088843B154C6ACD01CEAE0 /* ReplaceMe.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -480,6 +488,7 @@
 				3ECF04561C23F980003D29FE /* UITableViewControllerExtenstions.swift in Sources */,
 				3ECF045A1C240108003D29FE /* UIDeviceExtenstions.swift in Sources */,
 				3ECF0D0A1C25B57D003D29FE /* NSDateExtenstions.swift in Sources */,
+				3E2AEBE41C2A712F00DE202C /* QRCodeUtils.swift in Sources */,
 				3ECF04521C23F87B003D29FE /* CGRectExtentions.swift in Sources */,
 				3ECF044F1C23F799003D29FE /* UITableViewCellExtensions.swift in Sources */,
 				3ECF04541C23F92B003D29FE /* UIViewControllerExtenstions.swift in Sources */,
@@ -488,7 +497,6 @@
 				3E9998041C134FF700679D78 /* UIApplicationExtensions.swift in Sources */,
 				9BB398A2E35189713F422B0AE1FB434C /* BXiOSUtils-dummy.m in Sources */,
 				3ECF045D1C2413BD003D29FE /* GCDUtils.swift in Sources */,
-				A45F4D8B8EE25F83CC8A95E8885CDE42 /* ReplaceMe.swift in Sources */,
 				3E9998021C134FB700679D78 /* UIKitGlobals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
