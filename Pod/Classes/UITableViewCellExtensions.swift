@@ -11,13 +11,15 @@ import UIKit
 public extension UITableViewCell{
   public func bx_removeSeperatorInset(){
     separatorInset = UIEdgeInsetsZero
-    if #available(iOS 8.0, *) {
-      preservesSuperviewLayoutMargins = false
-      layoutMargins = UIEdgeInsetsZero
-    }
+    bx_removeLayoutMargins()
   }
   
   public func bx_removeSeparator(){
       separatorInset = UIEdgeInsets(top: 0, left: 3600, bottom: 0, right: 0)
+  }
+  
+  public func bx_removeLayoutMargins(){
+      preservesSuperviewLayoutMargins = false
+      layoutMargins = UIEdgeInsetsZero
   }
 }
