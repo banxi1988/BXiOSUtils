@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		009DCE0E38B5C5B142A4478CBFF50DFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		3E2AEBE41C2A712F00DE202C /* QRCodeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AEBE31C2A712F00DE202C /* QRCodeUtils.swift */; };
+		3E2AEC0C1C2A843B00DE202C /* StringExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AEC0B1C2A843B00DE202C /* StringExtentions.swift */; };
 		3E9998001C134B7500679D78 /* UIViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9997FF1C134B7500679D78 /* UIViewExtentions.swift */; };
 		3E9998021C134FB700679D78 /* UIKitGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9998011C134FB700679D78 /* UIKitGlobals.swift */; };
 		3E9998041C134FF700679D78 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9998031C134FF700679D78 /* UIApplicationExtensions.swift */; };
@@ -70,6 +71,7 @@
 		39F293BE5D9D7F825683D84F93047D45 /* Pods-BXiOSUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXiOSUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3AD96EAED054E8334CF2904601AF07D8 /* BXiOSUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BXiOSUtils-prefix.pch"; sourceTree = "<group>"; };
 		3E2AEBE31C2A712F00DE202C /* QRCodeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeUtils.swift; sourceTree = "<group>"; };
+		3E2AEC0B1C2A843B00DE202C /* StringExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtentions.swift; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E9997FF1C134B7500679D78 /* UIViewExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtentions.swift; sourceTree = "<group>"; };
 		3E9998011C134FB700679D78 /* UIKitGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitGlobals.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 			children = (
 				3E9998061C13512200679D78 /* FoundationGlobals.swift */,
 				3ECF0D091C25B57D003D29FE /* NSDateExtenstions.swift */,
+				3E2AEC0B1C2A843B00DE202C /* StringExtentions.swift */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 				3E2AEBE41C2A712F00DE202C /* QRCodeUtils.swift in Sources */,
 				3ECF04521C23F87B003D29FE /* CGRectExtentions.swift in Sources */,
 				3ECF044F1C23F799003D29FE /* UITableViewCellExtensions.swift in Sources */,
+				3E2AEC0C1C2A843B00DE202C /* StringExtentions.swift in Sources */,
 				3ECF04541C23F92B003D29FE /* UIViewControllerExtenstions.swift in Sources */,
 				3E9998071C13512200679D78 /* FoundationGlobals.swift in Sources */,
 				3E9998091C14095F00679D78 /* UIImageExtensions.swift in Sources */,
