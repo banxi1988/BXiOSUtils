@@ -123,6 +123,12 @@ public extension UIView{
     UIRectFill(lineRect)
   }
   
+  public func bx_drawLineAtY(y:CGFloat,leadingInset inset:CGFloat=54){
+    DrawSettings.seperatorLineColor.set()
+    let lineRect = CGRect(x: inset, y: y, width: bounds.width - inset, height: DrawSettings.seperatorLineWidth)
+    UIRectFill(lineRect)
+  }
+  
   public func bx_drawGapRect(atBottom:Bool = true,atTop:Bool = false){
     DrawSettings.gapRectColor.setFill()
     if atBottom {
