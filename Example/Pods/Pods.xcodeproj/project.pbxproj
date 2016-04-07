@@ -25,6 +25,7 @@
 		3ECF045A1C240108003D29FE /* UIDeviceExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF04591C240108003D29FE /* UIDeviceExtenstions.swift */; };
 		3ECF045D1C2413BD003D29FE /* GCDUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF045C1C2413BD003D29FE /* GCDUtils.swift */; };
 		3ECF0D0A1C25B57D003D29FE /* NSDateExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF0D091C25B57D003D29FE /* NSDateExtenstions.swift */; };
+		3EF197E81CB600A100D5280E /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF197E71CB600A100D5280E /* NSObjectExtensions.swift */; };
 		51F01D080397660686C6544FCC9CD853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		8EF24D8B8CC2F924EE968A05D41A47C1 /* Pods-BXiOSUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF35F2D24A88482F79EFBB56F3604991 /* Pods-BXiOSUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB398A2E35189713F422B0AE1FB434C /* BXiOSUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1C0C1BAAB390FBE93471E767C1B0CE /* BXiOSUtils-dummy.m */; };
@@ -89,6 +90,7 @@
 		3ECF04591C240108003D29FE /* UIDeviceExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtenstions.swift; sourceTree = "<group>"; };
 		3ECF045C1C2413BD003D29FE /* GCDUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDUtils.swift; sourceTree = "<group>"; };
 		3ECF0D091C25B57D003D29FE /* NSDateExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtenstions.swift; sourceTree = "<group>"; };
+		3EF197E71CB600A100D5280E /* NSObjectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
 		412B43B8741540E8DF64F357797840D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BF64475A9AFC75F67C96C5F88B926F2 /* Pods_BXiOSUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXiOSUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D7F2CF49498F7808DB74BDE7A5E18F /* Pods-BXiOSUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXiOSUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 				3E9998061C13512200679D78 /* FoundationGlobals.swift */,
 				3ECF0D091C25B57D003D29FE /* NSDateExtenstions.swift */,
 				3E2AEC0B1C2A843B00DE202C /* StringExtentions.swift */,
+				3EF197E71CB600A100D5280E /* NSObjectExtensions.swift */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				3ECF045A1C240108003D29FE /* UIDeviceExtenstions.swift in Sources */,
 				3ECF0D0A1C25B57D003D29FE /* NSDateExtenstions.swift in Sources */,
 				3E2AEBE41C2A712F00DE202C /* QRCodeUtils.swift in Sources */,
+				3EF197E81CB600A100D5280E /* NSObjectExtensions.swift in Sources */,
 				3ECF04521C23F87B003D29FE /* CGRectExtentions.swift in Sources */,
 				3ECF044F1C23F799003D29FE /* UITableViewCellExtensions.swift in Sources */,
 				3E2AEC0C1C2A843B00DE202C /* StringExtentions.swift in Sources */,
