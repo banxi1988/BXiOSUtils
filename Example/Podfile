@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'BXiOSUtils_Example', :exclusive => true do
+target 'BXiOSUtils_Example' do
   pod "BXiOSUtils", :path => "../"
 end
 
-target 'BXiOSUtils_Tests', :exclusive => true do
+target 'BXiOSUtils_Tests' do
   pod "BXiOSUtils", :path => "../"
 
   

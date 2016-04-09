@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-BXiOSUtils_Tests/BXiOSUtils.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/BXiOSUtils/BXiOSUtils.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-BXiOSUtils_Tests/BXiOSUtils.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/BXiOSUtils/BXiOSUtils.framework"
 fi

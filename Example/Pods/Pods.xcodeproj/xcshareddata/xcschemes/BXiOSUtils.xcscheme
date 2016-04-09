@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CBD14841E969A8274EA57C52'
+               BlueprintIdentifier = 'C168D7CFC1D117D1A4F90D25C145EDA0'
                BlueprintName = 'BXiOSUtils'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'BXiOSUtils.framework'>
