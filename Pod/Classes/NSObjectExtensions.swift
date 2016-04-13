@@ -41,3 +41,25 @@ public extension NSObject{
   }
   
 }
+
+//
+//
+// Simulator 
+//  with textLabel{
+//      .textAlignment = .Center
+//  }
+
+public extension NSObjectProtocol{
+  public func with(@noescape using: Self -> Void ) -> Self{
+    using(self)
+    return self
+  }
+}
+
+public func with<T>(inout this:T, @noescape using:inout T -> Void){
+  using(&this)
+}
+
+public func with<T>(this:T, @noescape using: T -> Void ){
+  using(this)
+}
