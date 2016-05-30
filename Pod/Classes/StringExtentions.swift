@@ -16,3 +16,17 @@ public extension String{
     return self.stringByTrimmingCharactersInSet(.whitespaceCharacterSet())
   }
 }
+
+public extension String{
+  public var quietUrl:NSURL{
+    if let url = NSURL(string: self) {
+      return url
+    }
+    if let escapedString = self.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding){
+      if let url = NSURL(string: escapedString) {
+        return url
+      }
+    }
+    return NSURL(string: "")!
+  }
+}

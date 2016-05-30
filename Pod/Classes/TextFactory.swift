@@ -19,7 +19,7 @@ public struct AttributedText{
   }
   
   
-  var attributedText:NSAttributedString{
+  public var attributedText:NSAttributedString{
     return NSAttributedString(string: text, attributes: [NSFontAttributeName:font,NSForegroundColorAttributeName:textColor])
   }
 }
