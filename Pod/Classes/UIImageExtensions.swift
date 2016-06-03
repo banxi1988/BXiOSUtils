@@ -147,3 +147,11 @@ public extension UIImage{
   
   
 }
+
+public extension UIImage{
+  public var bx_rawImage:UIImage{
+    return self.imageWithRenderingMode(.AlwaysOriginal)
+  }
+}
+
+
