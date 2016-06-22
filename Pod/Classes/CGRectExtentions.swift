@@ -49,7 +49,7 @@ extension CGRect{
   
   public init(center:CGPoint,radius:CGFloat){
     origin = CGPoint(x: center.x - radius, y: center.y - radius)
-    size = CGSize(width: radius, height: radius)
+    size = CGSize(width: radius * 2, height: radius * 2)
   }
   
   public init(center:CGPoint,width:CGFloat, height:CGFloat){
