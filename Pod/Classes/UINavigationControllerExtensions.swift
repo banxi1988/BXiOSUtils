@@ -18,7 +18,7 @@ public extension UINavigationController{
     setViewControllers(vcArray, animated: true)
   }
   
-  public func bx_popTwoViewController(animated:Bool = true){
+  public func bx_popTwoViewController(_ animated:Bool = true){
     var  vcArray = viewControllers
     vcArray.popLast()
     vcArray.popLast()

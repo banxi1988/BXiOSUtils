@@ -1,5 +1,5 @@
 PODS:
-  - BXiOSUtils (0.1.6)
+  - BXiOSUtils (1.0.0)
 
 DEPENDENCIES:
   - BXiOSUtils (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BXiOSUtils: 32e809d0e789e291e71db622944646acc6453518
+  BXiOSUtils: 7218b6016948a53abe4efe05b845ea94c4da566e
 
 PODFILE CHECKSUM: 90e82ece88e4f1b2e2829a9619e0e76b05bb9aa3
 
-COCOAPODS: 1.0.0.beta.4
+COCOAPODS: 1.1.0.rc.2

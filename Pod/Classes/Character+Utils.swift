@@ -11,4 +11,5 @@ import Foundation
 extension Character{
   public static let fullWidthSpace = "　"
   public static let fullWidthPlusSign = "＋"
+  public static let rmbChar = "￥"
 }

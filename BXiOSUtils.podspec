@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "BXiOSUtils"
-  s.version          = "0.2.0"
-  s.summary          = "BXiOSUtils is a Bundle of some Usefull Extentions And Utility Global Functions"
+  s.version          = "1.0.0"
+  s.summary          = "BXiOSUtils is a Bundle of some Usefull Extentions And Utility Global Functions now support Swift 3"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
