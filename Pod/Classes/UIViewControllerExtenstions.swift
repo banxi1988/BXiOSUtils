@@ -37,9 +37,10 @@ public extension UIViewController{
       dismiss(animated: true, completion: nil)
     }
   }
-  
-  public func bx_navUp(){
-    navigationController?.popViewController(animated: true)
+ 
+  @discardableResult
+  public func bx_navUp() -> UIViewController?{
+    return navigationController?.popViewController(animated: true)
   }
   
 }

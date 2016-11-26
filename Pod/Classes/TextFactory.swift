@@ -12,6 +12,11 @@ public struct AttributedText{
   public var textColor:UIColor
   public var font:UIFont
   public fileprivate(set) var text:String
+  
+  public init(text:String,fontSize: CGFloat = 15,textColor:UIColor = UIColor.darkText){
+    self.init(text:text, font: UIFont.systemFont(ofSize: fontSize), textColor: textColor)
+  }
+  
   public init(text:String,font:UIFont = UIFont.systemFont(ofSize: 15),textColor:UIColor = UIColor.darkText){
     self.text = text
     self.font = font

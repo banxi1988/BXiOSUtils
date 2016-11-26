@@ -22,11 +22,11 @@ public extension String{
     if let url = URL(string: self) {
       return url
     }
-    if let escapedString = self.addingPercentEscapes(using: String.Encoding.utf8){
-      if let url = URL(string: escapedString) {
-        return url
-      }
-    }
-    return URL(string: "")!
+//    if let escapedString = self.addingPercentEscapes(using: String.Encoding.utf8){
+//      if let url = URL(string: escapedString) {
+//        return url
+//      }
+//    }
+    return URL(string: "http://localhost")!
   }
 }
